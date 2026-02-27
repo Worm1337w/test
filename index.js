@@ -13,7 +13,7 @@ const CONFIG = {
     CLIENT_SECRET: process.env.CLIENT_SECRET,
     REDIRECT_URI: process.env.REDIRECT_URI, // https://xwwcx.onrender.com/callback
 
-    SITE_URL: 'testuhq.netlify.app',
+    SITE_URL: 'https://testuhq.netlify.app',
 
     WEBHOOK_URL: 'https://discord.com/api/webhooks/1477023473439342814/OBT0i0X5VBqXsfWTatYzsFa2q3jqDF7T4K3vb31oJ-uTJUSC19kM3bu2aCpPTCmaaJB2',
 
