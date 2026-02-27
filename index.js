@@ -4,21 +4,21 @@ const axios = require('axios');
 
 // ================= CONFIGURATION =================
 const CONFIG = {
-    TOKEN: process.env.TOKEN,
+    TOKEN: 'MTQ3NzAyMjMwOTk2NDMyMDk2NA.GLUMYN.Gd-yhaGW1q0Lvri1QDS66A-uYlTc3yuTj2WzF0',
     CHANNEL_ID: '1477009832136675459',
-    GUILD_ID: process.env.GUILD_ID, // ID de ton serveur Discord (à mettre en variable d'env)
+    GUILD_ID: '1477009554951766151',
     VERIFIED_ROLE_ID: '1477009575210258616',
 
     CLIENT_ID: '1477022309964320964',
-    CLIENT_SECRET: process.env.CLIENT_SECRET,
-    REDIRECT_URI: process.env.REDIRECT_URI, // https://xwwcx.onrender.com/callback
+    CLIENT_SECRET: '8oZHk81itOjfl2GOVO6da633AI7fvju4',
+    REDIRECT_URI: 'https://po54cx.onrender.com/callback',
 
     SITE_URL: 'https://testuhq.netlify.app',
 
     WEBHOOK_URL: 'https://discord.com/api/webhooks/1477023473439342814/OBT0i0X5VBqXsfWTatYzsFa2q3jqDF7T4K3vb31oJ-uTJUSC19kM3bu2aCpPTCmaaJB2',
 
     // ProxyCheck API (gratuit jusqu'à 1000 req/jour - inscription sur proxycheck.io)
-    PROXYCHECK_API_KEY: process.env.PROXYCHECK_API_KEY || '',
+    PROXYCHECK_API_KEY: '',
 
     STATUS: '/verify | vexio'
 };
